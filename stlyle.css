@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  header,
+  footer {
+    width: 100%;
+    background-color: #333; /* Dark background color for header and footer */
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: #ffffff; /* Background color for the box */
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px; /* Padding for the box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  }
+  
+  #caption {
+    text-align: center;
+    margin-top: 10px; /* Spacing between the box and the caption */
+    color: #333;
+  }
+  
+  canvas {
+    border: none; /* Remove the border from the canvas */
+  }
+  
+  footer {
+    bottom: 0;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  #stopBtn {
+    background-color: #f44336; /* Red */
+  }
+  
+  #stopBtn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Cube with Three Lights</title>
+    <!-- Importing Three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.js"></script>
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <button id="rotateBtn">Rotate</button>
+        <button id="stopBtn">Stop</button>
+      </div>
+    </header>
+    <!-- Display area for the 3D scene -->
+    <div id="container">
+      <div class="box">
+        <canvas></canvas>
+        <div id="caption">Rotating Cube</div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Bornface and Francis Grp. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
